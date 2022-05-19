@@ -1,31 +1,33 @@
 <?php 
 
-$user = $_POST['user'];
-$senha = $_POST['senha'];
+$novidades = $_POST["novidades"];
+$email = $_POST['email'];
+$nome = $_POST['nome'];
+$telefone = $_POST['fone'];
+$comentario = $_POST['mensagem'];
+$rdo_btn = $_POST['avaliacao'];
+$select = $_POST['opcoes'];
+if (isset($rdo_btn))
+{
+    echo "Avaliação: ".$rdo_btn."<br/>";
+}
 
+if (isset($select))
+{
+    echo "Seção preferida : ".$select."<br/>";
+}
+
+echo "Comentário: ";
+echo $comentario."<br/>";
+
+echo "Contato:"."<br/>";
+echo $nome."<br/>";
+echo $email."<br/>";
+echo $telefone."<br/>";
+
+if (isset($novidades))
+{
+    echo "O usuário quer receber novidades via e-mail."."<br/>";
+}
 
  ?>
-
- <!DOCTYPE html>
- <html>
- <head>
- 	<meta charset="utf-8">
- 	<meta name="viewport" content="width=device-width, initial-scale=1">
- 	<title></title>
- </head>
- <body>
- 	<?php 
-
-    if ($user == "etecia" && $senha == "etecia238")
-    {
-      echo "Autenticação realizada com sucesso!";
-    } 
-    else 
-    {
-       echo "Você não tem permissão para visualizar essa página.";
-    }
-    
-	 ?>
- </script>
- </body>
- </html>

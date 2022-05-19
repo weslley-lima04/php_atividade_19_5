@@ -25,16 +25,16 @@
     <br><br>
      <label>De qual seção você gostou mais?</label><br><br>
      <select id="opcoes" name="opcoes">
-     	<option value="1">Em cartaz</option>
-     	<option value="2">Fora de cartaz</option>
-     	<option value="3">A lançar</option>
+     	<option value="Em cartaz">Em cartaz</option>
+     	<option value="Fora de cartaz">Fora de cartaz</option>
+     	<option value="A lançar">A lançar</option>
 
      </select>
      <label>Outra:</label>
      <input type="text" name="outra_opcao"><br><br>
 
      <label>Deixe abaixo seu comentário:</label><br>
-     <textarea name="message" rows="5" cols="30"> 	
+     <textarea name="mensagem" rows="5" cols="30"> 	
 
      </textarea><br><br>
 
