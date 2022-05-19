@@ -6,7 +6,7 @@
 	<title></title>
 </head>
 <body>
-  <form method="POST" action="exercicio4_resp.php">
+  <form method="POST" action="exercicio3_resp.php">
   	<label>Digite o seu login:</label>
   	<br><br>
   	Usuário:
